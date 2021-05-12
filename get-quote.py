@@ -11,7 +11,7 @@ def primary():
     last = 13
     rnd = random.randint(0, last)
 
-    print(quotes[rnd])
+    print(quotes[rnd] + quotes[2])
 
 
 if __name__ == "__main__":
